@@ -1,0 +1,37 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="expo.modules.hindiink" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+5-->INJECTED
+5-->INJECTED
+6
+7    <application>
+7-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:2:3-15:17
+8        <service
+8-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:3:5-14:15
+9            android:name="expo.modules.hindiink.ime.HindiInputMethodService"
+9-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:4:7-71
+10            android:exported="true"
+10-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:7:7-30
+11            android:label="@string/hindi_ink_ime_label"
+11-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:5:7-50
+12            android:permission="android.permission.BIND_INPUT_METHOD" >
+12-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:6:7-64
+13            <intent-filter>
+13-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:8:7-10:23
+14                <action android:name="android.view.InputMethod" />
+14-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:9:9-59
+14-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:9:17-56
+15            </intent-filter>
+16
+17            <meta-data
+17-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:11:7-13:52
+18                android:name="android.view.im"
+18-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:12:9-39
+19                android:resource="@xml/hindi_ink_method" />
+19-->/home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:13:9-49
+20        </service>
+21    </application>
+22
+23</manifest>

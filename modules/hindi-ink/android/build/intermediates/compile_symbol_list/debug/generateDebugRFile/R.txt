@@ -1,0 +1,6 @@
+int drawable hindi_ink_ic_backspace 0x0
+int drawable hindi_ink_ic_enter 0x0
+int drawable hindi_ink_ic_globe 0x0
+int string hindi_ink_ime_label 0x0
+int string hindi_ink_subtype_label 0x0
+int xml hindi_ink_method 0x0

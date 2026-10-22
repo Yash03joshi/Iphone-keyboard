@@ -1,0 +1,40 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:1:1-16:12
+INJECTED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:1:1-16:12
+	package
+		INJECTED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:2:3-15:17
+service#expo.modules.hindiink.ime.HindiInputMethodService
+ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:3:5-14:15
+	android:label
+		ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:5:7-50
+	android:exported
+		ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:7:7-30
+	android:permission
+		ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:6:7-64
+	android:name
+		ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:4:7-71
+intent-filter#action:name:android.view.InputMethod
+ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:8:7-10:23
+action#android.view.InputMethod
+ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:9:9-59
+	android:name
+		ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:9:17-56
+meta-data#android.view.im
+ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:11:7-13:52
+	android:resource
+		ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:13:9-49
+	android:name
+		ADDED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml:12:9-39
+uses-sdk
+INJECTED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml
+INJECTED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/yash/WebDev/keyboard/modules/hindi-ink/android/src/main/AndroidManifest.xml

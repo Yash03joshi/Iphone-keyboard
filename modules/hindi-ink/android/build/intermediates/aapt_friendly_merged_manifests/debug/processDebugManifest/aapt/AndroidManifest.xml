@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="expo.modules.hindiink" >
+
+    <uses-sdk android:minSdkVersion="24" />
+
+    <application>
+        <service
+            android:name="expo.modules.hindiink.ime.HindiInputMethodService"
+            android:exported="true"
+            android:label="@string/hindi_ink_ime_label"
+            android:permission="android.permission.BIND_INPUT_METHOD" >
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/hindi_ink_method" />
+        </service>
+    </application>
+
+</manifest>

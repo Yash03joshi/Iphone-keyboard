@@ -1,0 +1,7 @@
+expo.modules.hindiink
+drawable hindi_ink_ic_backspace
+drawable hindi_ink_ic_enter
+drawable hindi_ink_ic_globe
+string hindi_ink_ime_label
+string hindi_ink_subtype_label
+xml hindi_ink_method

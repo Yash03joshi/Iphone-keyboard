@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hindi_ink_ime_label">Keshu Keyboard</string>
+  <string name="hindi_ink_subtype_label">Hindi (handwriting)</string>
+</resources>

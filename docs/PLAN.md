@@ -132,7 +132,11 @@ Why this layout:
 
 ## Status (2026-10-22)
 - Done: M1.1–M1.4 (practice screen works on device), M2.1–M2.3 first version, M2.4 setup card.
-- Next: M1.5 parent test + M2.5 device matrix; then dark mode for the keyboard and settings screen.
+- Android keyboard renamed "Keshu Keyboard", English UI, Gboard-style with dark mode and ?123 symbol pages.
+- iOS: no Mac / no paid account, so iOS is a separate pure-Swift project in `ios-keyboard/` built with
+  **xtool** on Linux (free Apple ID, 7-day re-sign) using `d-date/google-mlkit-swiftpm` for ML Kit.
+  Code written but not yet built (needs Swift + xtool + Xcode.xip set up). See `ios-keyboard/README.md`.
+- Next: first `xtool dev` build on iPhone; M3.0 memory check; M1.5 parent test.
 
 ## 6. First milestone: M1.1
 Commands (run in this folder):

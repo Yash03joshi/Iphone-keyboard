@@ -1,0 +1,10 @@
+version: 1
+bundleID: com.yash.keshukeyboard
+product: KeshuApp
+infoPath: KeshuApp-Info.plist
+extensions:
+  - product: KeshuKeyboard
+    infoPath: KeshuKeyboard-Info.plist
+    resources:
+      # Fetched by scripts/fetch-mlkit-bundle.sh (SwiftPM can't ship it in the binary target).
+      - Resources/MLKitDigitalInkRecognition_resource.bundle
